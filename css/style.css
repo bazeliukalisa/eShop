@@ -1,0 +1,71 @@
+/*INDEX.HTML*/
+.carousel img {
+    height: 450px;
+    width: 600px;
+}
+.logo {
+    height: 10em;
+    width: 10em;
+}
+body {
+    background-color: RGBA(123, 90, 69, 0.62);
+}
+header nav,
+.card {
+    background-color: RGBA(255, 127, 74, 0.2);
+}
+/*Navigacijos linko isvaizda, perejimas is kaires i desine */
+header nav a:hover {
+    background:
+        linear-gradient(to right,
+        var(--mainColor) 0%,
+        var(--mainColor) 50px,
+        transparent);
+    border-radius: 5px;
+}
+/*Spalva, naudojama navigacijos linke*/
+:root {
+    --mainColor: #FCC28C;
+}
+main nav a:hover,
+footer nav a:hover {
+    background:
+        linear-gradient(to right,
+        var(--mainColor) 0%,
+        var(--mainColor) 50px,
+        transparent);
+
+    border-radius: 5px;
+}
+header nav a:first-child:hover {
+    background: none;
+    padding: 0;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin-left: -15%;
+}
+/*PROCEDUROS.HTML*/
+.ProceduruNavigacija {
+    padding-right: 10em;
+    background-color: RGBA(255, 127, 74, 0.2);
+    margin-bottom: 5em;
+}
+.proceduruImages img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid RGBA(123, 90, 69, 0.62);
+    margin-right: 3em;
+    margin-left: 3em;
+}
+/*PAVEIKSLELIU IR TEKSTO KONTEINERIAI*/
+.row {
+    margin-bottom: 3em;
+}
+/*REGISTRACIJA.HTML*/
+.registrationContainer {
+    margin: 5em;
+}
